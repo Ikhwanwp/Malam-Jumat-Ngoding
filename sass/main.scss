@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+//Masukkan Link google fonts yang dipilih(Lilita One)
+//import a google fonts
+@import url('https://fonts.googleapis.com/css?family=Lilita+One|Staatliches');
+
+//Atur Warna apa saja yang diinginkan(Facebook Color Palette)
+//Set your brand colors
+$biru-gelap		: #3b5998;
+$biru-terang	: #8b9dc3;
+$abu-abu		: #dfe3ee;
+$putih-abu		: #f7f7f7;
+$putih 			: #ffffff;
+
+//Deklarasikan variabel bulma
+//Update bulma global variable
+$family-primary		: 'Staatliches', cursive;
+$family-secondary	: 'Lilita One', cursive;
+$primary	: $putih;
+$link 		: $biru-terang;
+$info		: $abu-abu;
+$success	: $putih-abu;
+$warning	: $biru-gelap;
+
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/form.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";

@@ -1,0 +1,14 @@
+{
+  "name": "Landing-Page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.7.4",
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/main.scss css/main.css",
+    "watch:css-build": "yarn css-build -- -w"
+  }
+}
